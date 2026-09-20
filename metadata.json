@@ -1,0 +1,6 @@
+{
+  "name": "Event Ticket & Attendee Checker",
+  "description": "Check people that bought tickets for all events happening regardless of sector or for specific events using live data from the Abuja Events API, with attendee verification, ticket quantities, and check-in stats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

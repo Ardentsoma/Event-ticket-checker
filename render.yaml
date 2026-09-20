@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: event-ticket-attendee-checker
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: UPSTREAM_API_BASE
+        value: https://events-api-a9et.onrender.com/api/v1

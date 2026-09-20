@@ -151,4 +151,4 @@ Key implementation details:
 │   ├── services/          # alternate API client (kept for reference)
 │   └── components/        # UI components
 └── render.yaml            # Render Blueprint for one-click deploy
-```# Event-ticket-checker
+```
